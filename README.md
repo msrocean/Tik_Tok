@@ -49,6 +49,18 @@ and Communications Security (CCS). ACM.
 
 ### Data Representation
 
+The data used for training and testing the model 
+consists of network traffic examples from various sources of 
+data as mentioned above. All examples are converted to sequences in 
+which we ignore packet size and timestamps and only store the traffic 
+direction of each packet, with +1 and -1 representing outgoing and 
+incoming packets, respectively.
+
+The sequences are trimmed or padded with 0’s as need to 
+reach a fixed length of 5,000 packets. Thus, 
+the input forms a 1-D array of [1 x 5000].
+
+
 We have experiments with **four** types of **data representation**.
 We explain each of the data representation as follows:
 
