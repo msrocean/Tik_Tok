@@ -1,4 +1,4 @@
-:warning: Experimental - PLEASE BE CAREFUL. Intended for Reasearch purposes ONLY.
+:warning: Experimental - **PLEASE BE CAREFUL**. Intended for Reasearch purposes ONLY.
 
 
 This repository contains the code and data to demonstrate the ***Experiments*** and ***Reproduce*** the results of the **PETS 2020** paper:
