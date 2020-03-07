@@ -8,7 +8,8 @@ This repository contains the code and data to demonstrate the ***Experiments*** 
 ```
 @inproceedings{rahman2019tik,
   title={{Tik-Tok}: The Utility of Packet Timing in Website Fingerprinting Attacks},
-  author={Rahman, Mohammad Saidur and Sirinam, Payap and Mathews, Nate and Gangadhara, Kantha Girish and Wright, Matthew},
+  author={Rahman, Mohammad Saidur and Sirinam, Payap and Mathews, Nate 
+          and Gangadhara, Kantha Girish and Wright, Matthew},
   journal={Proceedings on Privacy Enhancing Technologies},
   volume={2020},
   number={3},
