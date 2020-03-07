@@ -5,6 +5,7 @@ This repository contains the code and data to demonstrate the Experiments of Tik
 ## Tik-Tok: The Utility of Packet Timing in Website Fingerprinting Attacks
 
 #### Reference Format
+```
 @inproceedings{rahman2019tik,
   title={{Tik-Tok}: The Utility of Packet Timing in Website Fingerprinting Attacks},
   author={Rahman, Mohammad Saidur and Sirinam, Payap and Mathews, Nate and Gangadhara, Kantha Girish and Wright, Matthew},
@@ -14,3 +15,4 @@ This repository contains the code and data to demonstrate the Experiments of Tik
   year={2020},
   publisher={Sciendo}
 }
+```
