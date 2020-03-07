@@ -1,9 +1,9 @@
 :warning: Experimental - PLEASE BE CAREFUL. Intended for Reasearch purposes ONLY.
 
 
-This repository contains the code and data to demonstrate the *Experiments* and *Reproduce* the results of the **PETS 2020** paper:
+This repository contains the code and data to demonstrate the ***Experiments*** and ***Reproduce*** the results of the **PETS 2020** paper:
 ### Tik-Tok: The Utility of Packet Timing in Website Fingerprinting Attacks
-**
+
 #### Reference Format
 ```
 @inproceedings{rahman2019tik,
