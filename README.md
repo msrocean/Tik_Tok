@@ -19,7 +19,7 @@ This repository contains the code and data to demonstrate the ***Experiments*** 
 ```
 
 ### Dataset
-In this paper, we use five datasets for our experiments. 
+In this paper, we use **five datasets** for our experiments. 
 Among those, four datasets are from previous research, and 
 we collect another dataset. We list the datasets as follows with appropriate references:
 
@@ -45,3 +45,14 @@ Diaz. 2017. How Unique is Your. onion?: An Analysis of the Fingerprintability
 of Tor Onion Services. In Proceedings of the 2017 ACM Conference on Computer
 and Communications Security (CCS). ACM.
 ```
+
+### Data Representation
+
+We have experiments with **four** types of **data representation**.
+We explain each of the data representation as follows:
+
+- **Timing Features**:
+- **Direction (D)**:
+- **Raw Timing (RT**):
+- **Directional Timing (DT)**:
+
