@@ -2,8 +2,8 @@
 
 
 This repository contains the code and data to demonstrate the ***Experiments*** and ***Reproduce*** the results of the **PETS 2020** paper:
-### Tik-Tok: The Utility of Packet Timing in Website Fingerprinting Attacks 
-[Read the Paper](https://arxiv.org/pdf/1902.06421.pdf)
+### Tik-Tok: The Utility of Packet Timing in Website Fingerprinting Attacks ([Read the Paper](https://arxiv.org/pdf/1902.06421.pdf))
+
 
 #### Reference Format
 ```
