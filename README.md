@@ -52,7 +52,7 @@ and Communications Security (CCS). ACM.
 
 ### Data Representation
 
-We have experiments with **four** types of **data representation**.
+We have experiments with **four** types of **data representations**.
 We explain each of the data representation as follows:
 
 - **Timing Features**: Timing features consists of 160 feature values
@@ -79,4 +79,25 @@ We explain each of the data representation as follows:
                               a particular packet of an instance.
 
                               
+### Reprodcability of the Results
+
+We have in total **seven** sets of **experiments**. We explain the ways to reproduce each of 
+experimental results one by one as the following:
+
+#### Timing Features 
+- Timing Features in a traditional machine-learning (ML) classifier
+- Timing Features in *Deep Fingerprinting* model
+
+#### Direction
+
+#### Raw Timing (RT)
+
+#### Directional Timing (DT)
+
+
+#### Information Leakage Analysis
+
+#### Congestion Analysis
+
+#### Open-World Evaluation
 
