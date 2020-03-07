@@ -11,7 +11,7 @@ This repository contains the code and data to demonstrate the ***Experiments*** 
   title={{Tik-Tok}: The Utility of Packet Timing in Website Fingerprinting Attacks},
   author={Rahman, Mohammad Saidur and Sirinam, Payap and Mathews, Nate 
           and Gangadhara, Kantha Girish and Wright, Matthew},
-  journal={Proceedings on Privacy Enhancing Technologies},
+  journal={Proceedings on Privacy Enhancing Technologies (PETS)},
   volume={2020},
   number={3},
   year={2020},
@@ -49,23 +49,31 @@ and Communications Security (CCS). ACM.
 
 ### Data Representation
 
-The data used for training and testing the model 
-consists of network traffic examples from various sources of 
-data as mentioned above. All examples are converted to sequences in 
-which we ignore packet size and timestamps and only store the traffic 
-direction of each packet, with +1 and -1 representing outgoing and 
-incoming packets, respectively.
-
-The sequences are trimmed or padded with 0’s as need to 
-reach a fixed length of 5,000 packets. Thus, 
-the input forms a 1-D array of [1 x 5000].
-
-
 We have experiments with **four** types of **data representation**.
 We explain each of the data representation as follows:
 
-- **Timing Features**:
-- **Direction (D)**:
-- **Raw Timing (RT**):
-- **Directional Timing (DT)**:
+- **Timing Features**: Timing features consists of 160 feature values
+                        (20 feature values from 8 feature categories).
+                        In the model, timing features are represented as 
+                        an 1-D array of [1x160].
+
+- **Direction (D)**: We represent the direction information of an instance 
+                    as a sequences of +1 and -1, **+1** representing an outgoing packet
+                     and **-1** representing an incoming packet. 
+                     The sequences are trimmed or padded with 0’s as need to reach a fixed length of 5,000 packets.
+                      Thus, the input forms an 1-D array of [1 x 5000].
+                    
+- **Raw Timing (RT**): We represent the raw timing information as a sequence of 
+                        **raw timestamps** of an instance.
+                        The sequences are trimmed or padded with 0’s as 
+                        need to reach a fixed length of 5,000 packets.
+                        Thus, the input forms an 1-D array of [1 x 5000].
+                        
+- **Directional Timing (DT)**: We represent the directional timing information as 
+                              a sequence of the **multiplication** of 
+                              **raw timestamps** and the corresponding packet
+                              **direction** (+1 (outgoing) or -1 (incoming)) of 
+                              a particular packet of an instance.
+
+                              
 
