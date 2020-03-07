@@ -24,16 +24,16 @@ In this paper, we use **five datasets** for our experiments.
 Among those, four datasets are from previous research, and 
 we collect another dataset. We list the datasets as follows with appropriate references:
 
-1. Undefended [1]: Undefended dataset contains both closed-world (CW) \& open-world (OW) data, and collected in 2016.
+1. **Undefended** [1]: Undefended dataset contains both closed-world (CW) \& open-world (OW) data, and collected in 2016.
  CW data contains 95 sites with 1000 instances each and OW data contain 40,716 sites with 1 instance each.
-2. WTF-PAD [1]: WTF-PAD dataset contains both closed-world (CW) \& open-world (OW) data, and collected in 2016.
+2. **WTF-PAD** [1]: WTF-PAD dataset contains both closed-world (CW) \& open-world (OW) data, and collected in 2016.
  CW data contains 95 sites with 1000 instances each and OW data contain 40,716 sites with 1 instance each.
-3. Walkie-Talkie (Simulated) [1]: Walkie-Talkie (Simulated) dataset contains only closed-world (CW) data, and collected in 2016.
+3. **Walkie-Talkie (Simulated)** [1]: Walkie-Talkie (Simulated) dataset contains only closed-world (CW) data, and collected in 2016.
 This dataset contains 100 sites with 900 instances each.
-4. Onion Sites [2]: Onion Sites dataset contains only closed-world (CW) data, 
+4. **Onion Sites** [2]: Onion Sites dataset contains only closed-world (CW) data, 
 and collected in 2016.
 This dataset contains 538 sites with 77 instances each.
-5. Walkie-Talkie (Real): Walkie-Talkie (Real) dataset contains 100 sites with 750 instances each.
+5. **Walkie-Talkie (Real)**: Walkie-Talkie (Real) dataset contains 100 sites with 750 instances each.
  This dataset is collected using our implemented Walkie-Talkie prototype in 2019.
  
  ```angular2
