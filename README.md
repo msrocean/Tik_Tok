@@ -36,7 +36,8 @@ This dataset contains 538 sites with 77 instances each.
 5. **Walkie-Talkie (Real)**: Walkie-Talkie (Real) dataset contains 100 sites with 750 instances each.
  This dataset is collected using our implemented Walkie-Talkie prototype in 2019.
  As this dataset size is more than the limit of *github*, we share the 
-  the dataset in a google drive and the dataset can be downloaded from this [url]()
+  the dataset in a google drive and the dataset can be downloaded from this [url](). 
+  ***nate*** please describe the dataset.
  
  ```angular2
 [1] Payap Sirinam, Mohsen Imani, Marc Juarez, and Matthew Wright. 2018. 
