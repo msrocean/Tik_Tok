@@ -41,8 +41,9 @@ This dataset contains 538 sites with 77 instances each.
  
  ```angular2
 [1] Payap Sirinam, Mohsen Imani, Marc Juarez, and Matthew Wright. 2018. 
-DeepFingerprinting: Undermining Website Fingerprinting Defenses with Deep Learning.
-In Proceedings of the 2018 ACM Conference on Computer and Communications Security (CCS). ACM
+Deep Fingerprinting: Undermining Website Fingerprinting Defenses 
+with Deep Learning. In Proceedings of the 2018 ACM Conference on 
+Computer and Communications Security (CCS). ACM.
 
 [2] Rebekah Overdorf, Mark Juarez, Gunes Acar, Rachel Greenstadt, and Claudia
 Diaz. 2017. How Unique is Your. onion?: An Analysis of the Fingerprintability
@@ -106,7 +107,8 @@ experimental results one by one as the following:
     ```
    
    
-- Timing Features in *Deep Fingerprinting* model
+- Timing Features in *Deep Fingerprinting* [1] model:
+  
 
 #### Direction
 
