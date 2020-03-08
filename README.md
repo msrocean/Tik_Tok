@@ -85,7 +85,7 @@ We explain each of the data representation as follows:
 We have in total **seven** sets of **experiments**. We explain the ways to reproduce each of 
 experimental results one by one as the following:
 
-#### Timing Features 
+#### 1. Timing Features 
 - Extracting Timing Features:  
 - Traditional machine-learning (ML) classifier: For the experiments with 
    *k*-NN [3], SVM (CUMUL) [4], and *k*-FP [5], we refer to the classifier from the 
@@ -110,16 +110,16 @@ experimental results one by one as the following:
 - Timing Features in *Deep Fingerprinting* [1] model:
   
 
-#### Direction
+#### 2. Direction
 
-#### Raw Timing (RT)
+#### 3. Raw Timing (RT)
 
-#### Directional Timing (DT)
+#### 4. Directional Timing (DT)
 
 
-#### Information Leakage Analysis
+#### 5. Information Leakage Analysis
 
-#### Congestion Analysis
+#### 6. Congestion Analysis
 
-#### Open-World Evaluation
+#### 7. Open-World Evaluation
 
