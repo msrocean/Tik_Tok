@@ -85,7 +85,27 @@ We have in total **seven** sets of **experiments**. We explain the ways to repro
 experimental results one by one as the following:
 
 #### Timing Features 
-- Timing Features in a traditional machine-learning (ML) classifier
+- Extracting Timing Features:  
+- Traditional machine-learning (ML) classifier: For the experiments with 
+   *k*-NN [3], SVM (CUMUL) [4], and *k*-FP [5], we refer to the classifier from the 
+   respective repositories.
+   ```angular2
+    [3] Tao Wang, Xiang Cai, Rishab Nithyanand, Rob Johnson, and 
+        Ian Goldberg. 2014. Effective attacks and provable defenses for 
+        website fingerprinting. In Proceedings of the 23rd USENIX Conference 
+        on Security Symposium.
+    
+    [4] Andriy Panchenko, Fabian Lanze, Jan Pennekamp, Thomas Engel, 
+        Andreas Zinnen, Martin Henze, and Klaus Wehrle. 2016. Website 
+        fingerprinting at Internet scale. In Proceedings of the 23rd Network and
+        Distributed System Security Symposium (NDSS).
+  
+    [5] Jamie Hayes and George Danezis. 2016. k-Fingerprinting: A robust 
+        scalable website fingerprinting technique. In Proceedings of the 25th 
+        USENIX Conference on Security Symposium.
+    ```
+   
+   
 - Timing Features in *Deep Fingerprinting* model
 
 #### Direction
