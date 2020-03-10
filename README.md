@@ -133,7 +133,7 @@ experimental results one by one as the following:
     please download the processed data and put them into the Timing_Features/save_data/ directory.
     Please go to Timing_Features/ directory and run the following command. 
     In the place of ***dataset*** please write any of the following: 
-         Undefended, WTF-PAD, W-T-Simulated, Onion-Sites
+         ***Undefended, WTF-PAD, W-T-Simulated, Onion-Sites***
     ```angular2
     python Tik_Tok_timing_features.py dataset
     ```
