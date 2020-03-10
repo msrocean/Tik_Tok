@@ -1,7 +1,7 @@
 :warning: :warning: :warning: Experimental - **PLEASE BE CAREFUL**. Intended for Reasearch purposes ONLY. :warning: :warning: :warning:
 
 
-This repository contains the code and data to demonstrate the ***Experiments*** and ***Reproduce*** the results of the **PETS 2020** paper:
+This repository contains the code and data to demonstrate the ***Experiments*** and ***Reproduce*** the results of the **Privacy Enhancing Technologies Symposium (PETS) 2020** paper:
 ### Tik-Tok: The Utility of Packet Timing in Website Fingerprinting Attacks ([Read the Paper](https://arxiv.org/pdf/1902.06421.pdf))
 
 
