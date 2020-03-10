@@ -82,6 +82,21 @@ We explain each of the data representation as follows:
                               
 ### Reprodcability of the Results
 
+#### Dependencies & Required Packages
+Please make sure you have all the dependencies available and installed before running the models.
+- NVIDIA GPU should be installed in the machine, running on CPU will signifcantly increase time complexity.
+- Keras version: 2.2.2
+- TensorFlow version: 1.10.0
+- CUDA Version: 10.0 
+- CuDNN Version: 7 
+- Python Version: 3.6.9 
+
+Please install the required packages using:
+
+```angular2
+pip3 install -r requirements.txt
+```
+
 We have in total **seven** sets of **experiments**. We explain the ways to reproduce each of 
 experimental results one by one as the following:
 
