@@ -171,7 +171,9 @@ experimental results one by one as the following:
 #### 4. Directional Timing (DT)
 
 
-#### 5. Information Leakage Analysis
+#### 5. Information Leakage Analysis:
+For information leakge analysis, we refer to our re-implemented 
+github repository of WeFDE: [https://github.com/notem/reWeFDE.](https://github.com/notem/reWeFDE) 
 
 #### 6. Congestion Analysis
 
