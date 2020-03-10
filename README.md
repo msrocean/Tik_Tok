@@ -138,8 +138,11 @@ experimental results one by one as the following:
     python Tik_Tok_timing_features.py dataset
     ```
     
-    A snipet of training of Undefended data:
+    A snipet of output for Undefended data:
+    
     ```
+    python Tik_Tok_timing_features.py Undefended
+  
     Using TensorFlow backend.
     76000 train samples
     9500 validation samples
