@@ -102,7 +102,7 @@ We have in total **seven** sets of **experiments**. We explain the ways to repro
 experimental results one by one as the following:
 
 #### 1. Timing Features 
-- Extracting Timing Features:  
+
 - Traditional machine-learning (ML) classifier: For the experiments with 
    *k*-NN [3], SVM (CUMUL) [4], and *k*-FP [5], we refer to the classifier from the 
    respective repositories.
@@ -124,7 +124,35 @@ experimental results one by one as the following:
    
    
 - Timing Features in *Deep Fingerprinting* [1] model:
+
+    You can either 
+    
+     i) process raw data to get the features, or 
+     ii) use our processed data given in this [google drive url.](https://drive.google.com/drive/folders/1jVchJ492qbu60pIgS9cXALaYUQZoPIhq?usp=sharing)
+    If you are using our processed data, 
+    please download the processed data and put them into the Timing_Features/save_data/ directory.
+    Please go to Timing_Features/ directory and run the following command. 
+    In the place of ***dataset*** please write any of the following: 
+         Undefended, WTF-PAD, W-T-Simulated, Onion-Sites
+    ```angular2
+    python Tik_Tok_timing_features.py dataset
+    ```
+    
+    A snipet of training of Undefended data:
+    ```
+    Using TensorFlow backend.
+    76000 train samples
+    9500 validation samples
+    9500 test samples
+    Train on 76000 samples, validate on 9500 samples
+    Epoch 1/100
+     - 11s - loss: 4.1017 - acc: 0.0593 - val_loss: 2.9626 - val_acc: 0.1926
+    Epoch 2/100
+     - 7s - loss: 2.9497 - acc: 0.1976 - val_loss: 2.4673 - val_acc: 0.3026
+    .
+    .
   
+    ```
 
 #### 2. Direction
 
