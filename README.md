@@ -152,9 +152,15 @@ experimental results one by one as the following:
      - 11s - loss: 4.1017 - acc: 0.0593 - val_loss: 2.9626 - val_acc: 0.1926
     Epoch 2/100
      - 7s - loss: 2.9497 - acc: 0.1976 - val_loss: 2.4673 - val_acc: 0.3026
-    .
-    .
+    
+    .....
   
+   Epoch 99/100
+     - 7s - loss: 0.3103 - acc: 0.9109 - val_loss: 0.7414 - val_acc: 0.8216
+    Epoch 100/100
+     - 7s - loss: 0.3096 - acc: 0.9104 - val_loss: 0.7639 - val_acc: 0.8239
+    
+    Testing accuracy: 0.843284285
     ```
 
 #### 2. Direction
@@ -170,3 +176,14 @@ experimental results one by one as the following:
 
 #### 7. Open-World Evaluation
 
+
+
+### Questions, Comments, & Feedback
+Please, address any questions, comments, or feedback to the authors of the paper.
+The main developers of this code are:
+ 
+* Mohammad Saidur Rahman ([saidur.rahman@mail.rit.edu](mailto:saidur.rahman@mail.rit.edu)) 
+* Nate Mathews ([nate.mathews@mail.rit.edu](mailto:nate.mathews@mail.rit.edu))
+* Payap Sirinam ([payap_siri@rtaf.mi.th](mailto:payap_siri@rtaf.mi.th))
+* Kantha Girish Gangadhara ([kantha.gangadhara@mail.rit.edu](mailto:kantha.gangadhara@mail.rit.edu)
+* Matthew Wright ([matthew.wright@rit.edu](mailto:matthew.wright@rit.edu)) 
