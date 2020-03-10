@@ -137,6 +137,7 @@ experimental results one by one as the following:
     ```angular2
     python Tik_Tok_timing_features.py dataset
     ```
+    Optional: We have also added a *jupyter notebook* (Tik_Tok_timing_features.ipynb) for a better interactive environment.
     
     A snipet of output for Undefended data:
     
