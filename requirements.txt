@@ -2,6 +2,6 @@
 h5py
 tqdm
 sklearn
-tensorflow == 1.10.0
+tensorflow == 1.15.2
 keras == 2.2.2
 python == 3.6
