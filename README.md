@@ -33,11 +33,9 @@ This dataset contains 100 sites with 900 instances each.
 4. **Onion Sites** [2]: Onion Sites dataset contains only closed-world (CW) data, 
 and collected in 2016.
 This dataset contains 538 sites with 77 instances each.
-5. **Walkie-Talkie (Real)**: Walkie-Talkie (Real) dataset contains 100 sites with 750 instances each.
- This dataset is collected using our implemented Walkie-Talkie prototype in 2019.
- As this dataset size is more than the limit of *github*, we share the 
-  the dataset in a google drive and the dataset can be downloaded from this [url](). 
-  ***nate*** please describe the dataset.
+5. **Walkie-Talkie (Real)**: Walkie-Talkie (Real) dataset contains 100 sites with over 750 instances each.
+ This dataset is collected using our implemented Walkie-Talkie prototype in 2019. 
+ See the `W-T_Experiments` subdirectory for additional details.
  
  ```angular2
 [1] Payap Sirinam, Mohsen Imani, Marc Juarez, and Matthew Wright. 2018. 
@@ -164,20 +162,22 @@ experimental results one by one as the following:
     Testing accuracy: 0.843284285
     ```
 
-#### 2. Direction
+#### 2. Closed and Open-world Experiments w/ Deep Fingerprinting
 
-#### 3. Raw Timing (RT)
+See the `DL_Experiments` directory for the scripts used to perform the Direction, Raw Timing, and Directional Timing experiments.
 
-#### 4. Directional Timing (DT)
+#### 3. W-T Prototype Experiments
 
+Our W-T crawling software and instructions can be downloaded as a zip file from the following link: [gdrive](https://drive.google.com/file/d/1eMLzy0L83wCV5mFf9wEN4p-BMhgxXqmr/view?usp=sharing)
 
-#### 5. Information Leakage Analysis:
+The scripts used to evaluate the dataset and related instructions are found in the `W-T_Experiments` subdirectory.
+
+#### 4. Information Leakage Analysis:
 For information leakge analysis, we refer to our re-implemented 
 github repository of WeFDE: [https://github.com/notem/reWeFDE.](https://github.com/notem/reWeFDE) 
 
-#### 6. Congestion Analysis
+#### 5. Congestion Analysis
 
-#### 7. Open-World Evaluation
 
 
 
