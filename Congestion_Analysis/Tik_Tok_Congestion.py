@@ -51,6 +51,7 @@ except:
     os.makedirs(data_dir)
 
 # In[ ]:
+print(data_dir)
 
 
 model_files = ['X_tr', 'Y_tr', 'X_vl', 'Y_vl', 'X_te', 'Y_te']
@@ -78,7 +79,7 @@ elif dataset == 'WTF-PAD':
     num_epochs = 30
 else:
     num_classes = 538
-    num_epochs = 150
+    num_epochs = 100
     
 # Convert data as float32 type
 X_train = X_train.astype('float32')
@@ -104,7 +105,7 @@ y_test = np_utils.to_categorical(y_test, num_classes)
 
 exp_type = args.data_rep
 run_trial = 1 # change run_trial > 1 to get a standard deviation of the accuracy.
-seq_length = 5000 # 8 timing features x 20 bins = 160 features values.
+seq_length = 5000 
 
 
 VERBOSE = 2

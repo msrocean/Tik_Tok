@@ -177,7 +177,24 @@ For information leakge analysis, we refer to our re-implemented
 github repository of WeFDE: [https://github.com/notem/reWeFDE.](https://github.com/notem/reWeFDE) 
 
 #### 5. Congestion Analysis
+See the `Congestion_Analysis` directory for the scripts used to perform the experiments with the instances of `slow circuits as test set` and instances of `fast circuits as test set`.
+We processed the data to feed into model. Please create a sub-directory named `datasets` inside the 
+`Congestion_Analysis` directory. Download the data from this google drive [url.](https://drive.google.com/drive/folders/18dYNAq8bbkgG3XWy3wSRDpI9-pTbWhMA).
+Extract the downloaded files into to `datasets` sub-directory.
 
+Parameters:
+- `--congestion` : choices = ['slow', 'fast']\
+                            **slow**: Instances of Slow cirtuits as test set.\
+                            **fast**: Instances of fast circuits as test set.)
+- `--dataset` : choices=['Undefended', 'WTF-PAD', 'Onion-Sites']
+- `--data_rep` : choices = ['D', 'RT', 'DT']\
+               Type of data representation to be used.\
+               **D**: direction, **RT**: Raw Timing, and **DT**: Directional Timing
+                
+Usage:\
+    ```
+    python Tik_Tok_Congestion.py --congestion slow --dataset Undefended --data_rep D 
+    ```
 
 
 
