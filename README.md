@@ -96,7 +96,7 @@ Please install the required packages using:
 pip3 install -r requirements.txt
 ```
 
-We have in total **seven** sets of **experiments**. We explain the ways to reproduce each of 
+We explain the ways to reproduce each of 
 experimental results one by one as the following:
 
 #### 1. Timing Features 
