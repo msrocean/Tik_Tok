@@ -80,7 +80,8 @@ else:
 # In[ ]:
 
 
-K.set_image_dim_ordering("tf")
+#K.set_image_dim_ordering("tf")
+K.image_data_format() # In new version of Keras, the method has be renamed to image_data_format
 
 if dataset == datasets[0]:
     num_classes = 95
