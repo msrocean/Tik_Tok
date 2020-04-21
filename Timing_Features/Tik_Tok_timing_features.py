@@ -3,7 +3,7 @@
 
 # Code for the paper Tik-Tok: The Utility of Packet Timing in Website Fingerprinting Attacks accepted in PETS 2020.
 # Mohammad Saidur Rahman - saidur.rahman@mail.rit.edu
-# Center for Cybersecurity, Rochester Institute of Technology
+# Global Cybersecurity Institute, Rochester Institute of Technology
 
 
 
