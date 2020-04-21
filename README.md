@@ -60,9 +60,9 @@ We explain each of the data representation as follows:
                         an 1-D array of [1x160].
 
 - **Direction (D)**: We represent the direction information of an instance 
-                    as a sequences of +1 and -1, **+1** representing an outgoing packet
+                    as a sequence of +1 and -1, **+1** representing an outgoing packet
                      and **-1** representing an incoming packet. 
-                     The sequences are trimmed or padded with 0’s as need to reach a fixed length of 5,000 packets.
+                     The sequences are trimmed or padded with 0’s as needed to reach a fixed length of 5,000 packets.
                       Thus, the input forms an 1-D array of [1 x 5000].
                     
 - **Raw Timing (RT**): We represent the raw timing information as a sequence of 
@@ -82,7 +82,7 @@ We explain each of the data representation as follows:
 
 #### Dependencies & Required Packages
 Please make sure you have all the dependencies available and installed before running the models.
-- NVIDIA GPU should be installed in the machine, running on CPU will signifcantly increase time complexity.
+- NVIDIA GPU should be installed in the machine, running on CPU will significantly increase time complexity.
 - Ubuntu 16.04.5
 - Keras version: 2.3.0
 - TensorFlow version: 1.14.0
@@ -139,7 +139,7 @@ experimental results one by one as the following:
     ```
     Optional: We have also added a *jupyter notebook* (Tik_Tok_timing_features.ipynb) for a better interactive environment.
     
-    A snipet of output for Undefended data:
+    A snippet of output for Undefended data:
     
     ```
     python Tik_Tok_timing_features.py Undefended
@@ -175,7 +175,7 @@ Our W-T crawling software and instructions can be downloaded as a zip file from 
 The scripts used to evaluate the dataset and related instructions are found in the `W-T_Experiments` subdirectory.
 
 #### 4. Information Leakage Analysis:
-For information leakge analysis, we refer to our re-implemented 
+For information leakage analysis, we refer to our re-implemented 
 github repository of WeFDE: [https://github.com/notem/reWeFDE.](https://github.com/notem/reWeFDE) 
 
 #### 5. Congestion Analysis
