@@ -2,10 +2,8 @@
 h5py
 tqdm
 sklearn
-tensorflow == 1.14.0
-tensorflow-gpu==1.14.0
-keras == 2.2.2
-python == 3.6
 
-#numpy==1.18.1
-#keras==2.3.1
+numpy==1.18.1
+tensorflow==1.14.0
+tensorflow-gpu==1.14.0
+keras==2.3.1
