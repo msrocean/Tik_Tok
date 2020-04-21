@@ -84,11 +84,13 @@ We explain each of the data representation as follows:
 Please make sure you have all the dependencies available and installed before running the models.
 - NVIDIA GPU should be installed in the machine, running on CPU will signifcantly increase time complexity.
 - Ubuntu 16.04.5
-- Keras version: 2.2.2
-- TensorFlow version: 1.10.0
-- CUDA Version: 10.0 
+- Keras version: 2.3.1
+- TensorFlow version: 1.14.0
+- CUDA Version: 10.2 
 - CuDNN Version: 7 
-- Python Version: 3.6.9 
+- Python Version: 3.x 
+
+
 
 Please install the required packages using:
 
