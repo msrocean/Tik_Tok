@@ -54,7 +54,7 @@ and Communications Security (CCS). ACM.
 We have experiments with **four** types of **data representations**.
 We explain each of the data representation as follows:
 
-- **Timing Features**: Timing features consists of 160 feature values
+- **Timing Features**: Timing features consist of 160 feature values
                         (20 feature values from 8 feature categories).
                         In the model, timing features are represented as 
                         an 1-D array of [1x160].
@@ -78,7 +78,7 @@ We explain each of the data representation as follows:
                               a particular packet of an instance.
 
                               
-### Reprodcability of the Results
+### Reproducability of the Results
 
 #### Dependencies & Required Packages
 Please make sure you have all the dependencies available and installed before running the models.
