@@ -22,19 +22,19 @@ This repository contains the code and data to demonstrate the ***Experiments*** 
 ### Dataset
 In this paper, we use **five datasets** for our experiments. 
 Among those, four datasets are from previous research, and 
-we collect another dataset. We list the datasets as follows with appropriate references:
+we have collected the Walkie-Talkie (Real) dataset. We list the datasets as follows with appropriate description and references:
 
 1. **Undefended** [1]: Undefended dataset contains both closed-world (CW) \& open-world (OW) data, and collected in 2016.
  CW data contains 95 sites with 1000 instances each and OW data contain 40,716 sites with 1 instance each.
-2. **WTF-PAD** [1]: WTF-PAD dataset contains both closed-world (CW) \& open-world (OW) data, and collected in 2016.
+2. **WTF-PAD** [1]: WTF-PAD dataset contains both closed-world (CW) \& open-world (OW) data, and collected in 2016 as well.
  CW data contains 95 sites with 1000 instances each and OW data contain 40,716 sites with 1 instance each.
-3. **Walkie-Talkie (Simulated)** [1]: Walkie-Talkie (Simulated) dataset contains only closed-world (CW) data, and collected in 2016.
+3. **Walkie-Talkie (Simulated)** [1]: Walkie-Talkie (Simulated) dataset contains only closed-world (CW) data, and collected in 2016 as well.
 This dataset contains 100 sites with 900 instances each.
 4. **Onion Sites** [2]: Onion Sites dataset contains only closed-world (CW) data, 
-and collected in 2016.
+and collected in 2016 as well.
 This dataset contains 538 sites with 77 instances each.
 5. **Walkie-Talkie (Real)**: Walkie-Talkie (Real) dataset contains 100 sites with over 750 instances each.
- This dataset is collected using our implemented Walkie-Talkie prototype in 2019. 
+ We collected this dataset using our implemented Walkie-Talkie prototype in 2019. 
  See the `W-T_Experiments` subdirectory for additional details.
  
  ```angular2
@@ -68,14 +68,16 @@ We explain each of the data representation as follows:
 - **Raw Timing (RT**): We represent the raw timing information as a sequence of 
                         **raw timestamps** of an instance.
                         The sequences are trimmed or padded with 0’s as 
-                        need to reach a fixed length of 5,000 packets.
+                        needed to reach a fixed length of 5,000 packets.
                         Thus, the input forms an 1-D array of [1 x 5000].
                         
 - **Directional Timing (DT)**: We represent the directional timing information as 
                               a sequence of the **multiplication** of 
                               **raw timestamps** and the corresponding packet
                               **direction** (+1 (outgoing) or -1 (incoming)) of 
-                              a particular packet of an instance.
+                              a particular packet of an instance. The sequences are trimmed or padded with 0’s as 
+                        needed to reach a fixed length of 5,000 packets.
+                        Thus, the input forms an 1-D array of [1 x 5000].
 
                               
 ### Reproducability of the Results
