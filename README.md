@@ -184,7 +184,7 @@ github repository of WeFDE: [https://github.com/notem/reWeFDE.](https://github.c
 See the `Congestion_Analysis` directory for the scripts used to perform the experiments with the instances of `slow circuits as test set` and instances of `fast circuits as test set`.
 We processed the data to feed into model. Please create a sub-directory named `datasets` inside the 
 `Congestion_Analysis` directory. Download the data from this google drive [url.](https://drive.google.com/drive/folders/18dYNAq8bbkgG3XWy3wSRDpI9-pTbWhMA)
-Extract the downloaded files into to `datasets` sub-directory.
+Extract the downloaded files to `datasets` sub-directory.
 
 Parameters:
 - `--congestion` : choices = ['slow', 'fast']\
