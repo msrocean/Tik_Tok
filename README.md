@@ -210,5 +210,5 @@ The main developers of this code are:
 * Mohammad Saidur Rahman ([saidur.rahman@mail.rit.edu](mailto:saidur.rahman@mail.rit.edu)) 
 * Nate Mathews ([nate.mathews@mail.rit.edu](mailto:nate.mathews@mail.rit.edu))
 * Payap Sirinam ([payap_siri@rtaf.mi.th](mailto:payap_siri@rtaf.mi.th))
-* Kantha Girish Gangadhara ([kantha.gangadhara@mail.rit.edu](mailto:kantha.gangadhara@mail.rit.edu)
+* Kantha Girish Gangadhara ([kantha.gangadhara@mail.rit.edu](mailto:kantha.gangadhara@mail.rit.edu))
 * Matthew Wright ([matthew.wright@rit.edu](mailto:matthew.wright@rit.edu)) 
