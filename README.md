@@ -1,3 +1,5 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tik-tok-the-utility-of-packet-timing-in/website-fingerprinting-attacks-on-website)](https://paperswithcode.com/sota/website-fingerprinting-attacks-on-website?p=tik-tok-the-utility-of-packet-timing-in)
+
 :warning: :warning: :warning: Experimental - **PLEASE BE CAREFUL**. Intended for Reasearch purposes ONLY. :warning: :warning: :warning:
 
 
