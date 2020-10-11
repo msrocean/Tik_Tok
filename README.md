@@ -213,4 +213,8 @@ The main developers of this code are:
 * Nate Mathews ([nate.mathews@mail.rit.edu](mailto:nate.mathews@mail.rit.edu))
 * Payap Sirinam ([payap_siri@rtaf.mi.th](mailto:payap_siri@rtaf.mi.th))
 * Kantha Girish Gangadhara ([kantha.gangadhara@mail.rit.edu](mailto:kantha.gangadhara@mail.rit.edu))
-* Matthew Wright ([matthew.wright@rit.edu](mailto:matthew.wright@rit.edu)) 
+* Matthew Wright ([matthew.wright@rit.edu](mailto:matthew.wright@rit.edu))
+
+
+### Acknowledgements
+We thank the anonymous reviewers for their helpful feedback. We give special thanks to Tao Wang for providing details about the technical implementation of the W-T defense, and to Marc Juarez for providing guidelines on developing the W-T prototype. This material is based upon work supported in part by the **National Science Foundation (NSF)** under Grants No. **1722743** and **1816851**.
