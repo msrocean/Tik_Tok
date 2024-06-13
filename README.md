@@ -4,7 +4,7 @@
 
 
 This repository contains the code and data to demonstrate the ***Experiments*** and ***Reproduce*** the results of the **Privacy Enhancing Technologies Symposium (PETS) 2020** paper:
-### Tik-Tok: The Utility of Packet Timing in Website Fingerprinting Attacks ([Read the Paper](https://content.sciendo.com/view/journals/popets/2020/3/article-p5.xml))
+### Tik-Tok: The Utility of Packet Timing in Website Fingerprinting Attacks ([Read the Paper](https://petsymposium.org/popets/2020/popets-2020-0043.pdf))
 
 
 #### Reference Format
