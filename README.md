@@ -134,40 +134,42 @@ experimental results one by one as the following:
     
      i) process raw data to get the features [(google drive url.)](https://drive.google.com/drive/folders/1k6X8PjKTXNalCiUQudx-HyqoAXVXRknL?usp=sharing), or 
      ii) use our processed data given in this [(google drive url.)](https://drive.google.com/drive/folders/13JY6QBk0Yb4D8K38oaNkZ0vGWPSYdK95?usp=sharing)
-    If you are using our processed data, 
-    please download the processed data and put them into the `Timing_Features/save_data/` directory.
-    Please go to `Timing_Features` directory and run the following command. 
-    In the place of ***dataset***, please write any of the following: 
-         ***Undefended, WTF-PAD, W-T-Simulated, Onion-Sites***
-    ```angular2
-    python Tik_Tok_timing_features.py dataset
-    ```
-    Optional: We have also added a *jupyter notebook* (Tik_Tok_timing_features.ipynb) for a better interactive environment.
-    
-    A snippet of output for Undefended data:
-    
-    ```
-    python Tik_Tok_timing_features.py Undefended
+    - ```[Update June, 2024] We are moving the datsets from Google drive to another cloud repository```
   
-    Using TensorFlow backend.
-    76000 train samples
-    9500 validation samples
-    9500 test samples
-    Train on 76000 samples, validate on 9500 samples
-    Epoch 1/100
-     - 11s - loss: 4.1017 - acc: 0.0593 - val_loss: 2.9626 - val_acc: 0.1926
-    Epoch 2/100
-     - 7s - loss: 2.9497 - acc: 0.1976 - val_loss: 2.4673 - val_acc: 0.3026
+        If you are using our processed data, 
+        please download the processed data and put them into the `Timing_Features/save_data/` directory.
+        Please go to `Timing_Features` directory and run the following command. 
+        In the place of ***dataset***, please write any of the following: 
+             ***Undefended, WTF-PAD, W-T-Simulated, Onion-Sites***
+        ```angular2
+        python Tik_Tok_timing_features.py dataset
+        ```
+        Optional: We have also added a *jupyter notebook* (Tik_Tok_timing_features.ipynb) for a better interactive environment.
     
-    .....
+        A snippet of output for Undefended data:
+    
+        ```
+        python Tik_Tok_timing_features.py Undefended
   
-   Epoch 99/100
-     - 7s - loss: 0.3103 - acc: 0.9109 - val_loss: 0.7414 - val_acc: 0.8216
-    Epoch 100/100
-     - 7s - loss: 0.3096 - acc: 0.9104 - val_loss: 0.7639 - val_acc: 0.8239
+        Using TensorFlow backend.
+        76000 train samples
+        9500 validation samples
+        9500 test samples
+        Train on 76000 samples, validate on 9500 samples
+        Epoch 1/100
+         - 11s - loss: 4.1017 - acc: 0.0593 - val_loss: 2.9626 - val_acc: 0.1926
+        Epoch 2/100
+         - 7s - loss: 2.9497 - acc: 0.1976 - val_loss: 2.4673 - val_acc: 0.3026
     
-    Testing accuracy: 0.843284285
-    ```
+        .....
+  
+       Epoch 99/100
+         - 7s - loss: 0.3103 - acc: 0.9109 - val_loss: 0.7414 - val_acc: 0.8216
+        Epoch 100/100
+         - 7s - loss: 0.3096 - acc: 0.9104 - val_loss: 0.7639 - val_acc: 0.8239
+    
+        Testing accuracy: 0.843284285
+        ```
 
 #### 2. Closed and Open-world Experiments w/ Deep Fingerprinting
 
