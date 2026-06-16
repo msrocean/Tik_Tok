@@ -16,7 +16,7 @@ standard DF CW and OW experiments, use the scripts in the other directory instea
   * Usage of python virtual environments are recommended
 * CUDA 10.2 & CuDNN
 * W-T proto dataset
-  * Download from: [HuggingFace]([https://drive.google.com/file/d/1TUv43I9E3Av1JwraB5mapId4WQ4_NQ4C/view?usp=sharing](https://huggingface.co/datasets/IQSeC-Lab/Tik-Tok/tree/main))
+  * Download from: [HuggingFace]([https://drive.google.com/file/d/1TUv43I9E3Av1JwraB5mapId4WQ4_NQ4C/view?usp=sharing](https://huggingface.co/datasets/IQSeC-Lab/Tik-Tok/tree/main)
 
 ### Usage Examples
 
